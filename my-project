@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Redirect</title>
+</head>
+<body>
+	<form>
+		<label for="url-input">Enter a URL:</label>
+		<input type="text" id="url-input" name="url">
+		<button type="button" onclick="redirect()">Go</button>
+	</form>
+	<script>
+		function redirect() {
+			var url = document.getElementById("url-input").value;
+			window.location.replace(url);
+		}
+	</script>
+</body>
+</html>
