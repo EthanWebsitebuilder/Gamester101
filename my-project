@@ -17,3 +17,6 @@
 	</script>
 </body>
 </html>
+body {
+  background-color: white;
+}
